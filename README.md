@@ -24,11 +24,11 @@ _Check that no template strings remain after completing this list by searching f
 - [ ] `YOUR_GITHUB_PROJECT`: The Github project your documentation is for. (Not the repo the docs are hosted in)
   - Examples: react, create-react-app
 
-## Step 3: Deploy to pages
+## Step 3: Replace images
 
 Replace: `website/static/img/favicon.ico` & `website/static/img/logo192.png`
 
-## Step 4: Replace images
+## Step 4: Deploy to pages
 
 Run the command: `sudo GIT_USER=YOUR_ORGANIZATION_NAME USE_SSH=false npm run publish-gh-pages`
 
