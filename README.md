@@ -24,7 +24,11 @@ _Check that no template strings remain after completing this list by searching f
 - [ ] `YOUR_GITHUB_PROJECT`: The Github project your documentation is for. (Not the repo the docs are hosted in)
   - Examples: react, create-react-app
 
+## Step 3: Deploy to pages
+Run the command: `sudo GIT_USER=YOUR_ORGANIZATION_NAME USE_SSH=false npm run publish-gh-pages`
+
 ### If you want to deploy this to a repo's Github page (instead of an organization's page)
 
 - Set `baseUrl` in config to `/YOUR_GITHUB_PROJECT/`
 - Instead of moving to a `source` branch, stay on `master`.
+
