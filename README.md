@@ -25,10 +25,14 @@ _Check that no template strings remain after completing this list by searching f
   - Examples: react, create-react-app
 
 ## Step 3: Deploy to pages
+
+Replace: `website/static/img/favicon.ico` & `website/static/img/logo192.png`
+
+## Step 4: Replace images
+
 Run the command: `sudo GIT_USER=YOUR_ORGANIZATION_NAME USE_SSH=false npm run publish-gh-pages`
 
 ### If you want to deploy this to a repo's Github page (instead of an organization's page)
 
 - Set `baseUrl` in config to `/YOUR_GITHUB_PROJECT/`
 - Instead of moving to a `source` branch, stay on `master`.
-
