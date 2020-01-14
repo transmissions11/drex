@@ -30,7 +30,7 @@ Replace: `website/static/img/favicon.ico` & `website/static/img/logo192.png`
 
 ## Step 4: Deploy to pages
 
-Run the command: `sudo GIT_USER=YOUR_ORGANIZATION_NAME USE_SSH=false npm run publish-gh-pages`
+Run the command: `sudo GIT_USER=YOUR_GITHUB_USERNAME USE_SSH=false npm run publish-gh-pages`
 
 ### If you want to deploy this to a repo's Github page (instead of an organization's page)
 
