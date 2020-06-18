@@ -42,7 +42,7 @@ function Help(props) {
           </header>
           <p>
             This project is maintained on Github. You may reach out on Discord
-            on Github via a pull request or Github issue.
+            or Github via a pull request or Github issue.
           </p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
